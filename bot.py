@@ -29,4 +29,12 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send('Pong!')
 
+# Whoami command
+
+
+@bot.command(name='whoami', help="Reports information on the user issuing the command.")
+async def whoami(ctx):
+    user = ctx.author
+    await ctx.send(f"You are {user.name} and your ID is {user.id}")
+
 bot.run(TOKEN)
