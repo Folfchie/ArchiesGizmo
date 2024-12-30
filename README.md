@@ -1,6 +1,11 @@
 # What is this?
 This is a Discord bot that is based on Python. It is a project I've undertaken primarily to get better at Python. That said, it is for experimental use only.
 
+## File Breakdown
+- **bot.py** - This is the bot. Without this file, nothing works.
+- **.env** - This file stores the bot's Discord token.
+- **xp_data.json** - This file stores the XP data for each user.
+
 # Terms of Service
 Effective Date: 12-30-2024
 
